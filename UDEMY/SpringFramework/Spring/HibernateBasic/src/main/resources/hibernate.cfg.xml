@@ -1,0 +1,17 @@
+<hibernate-configuration xmlns="http://www.hibernate.org/xsd/orm/cfg">
+    <session-factory>
+        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/Telsuko</property>
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.connection.password">mysql</property>
+
+<!--        in below create will create new table every time we run the code. update will only update the details.-->
+        <property name="hibernate.hbm2ddl.auto">create</property>
+
+<!--        Mentioning dialect name(optional)-->
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+        
+<!--        to display the query use this property-->
+        <property name="hibernate.show_sql">true</property>
+    </session-factory>
+</hibernate-configuration>

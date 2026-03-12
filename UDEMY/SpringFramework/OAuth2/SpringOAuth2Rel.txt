@@ -1,0 +1,2 @@
+ClientID For oAuth2 : 548164764131-5pqbvj5km2r7nnvg2i0b88qf9sp1fotl.apps.googleusercontent.com
+client Secret : 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
