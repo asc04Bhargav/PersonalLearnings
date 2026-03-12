@@ -1,0 +1,16 @@
+package com.junit.app1;
+
+public class HelloWorld {
+
+
+    public String greet(String name){
+        if(name.length() == 0){
+            throw new IllegalArgumentException("name is empty");
+        }
+        return "Hello: "+ name;
+    }
+    public int sum(int i,int j){
+        return i+j;
+    }
+
+}
