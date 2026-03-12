@@ -1,0 +1,15 @@
+package com.boot.ex1;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class BootHelloWorldApp1Application {
+
+	public static void main(String[] args) {
+
+		SpringApplication.run(BootHelloWorldApp1Application.class, args);
+		System.out.println("boot application launched");
+	}
+
+}
