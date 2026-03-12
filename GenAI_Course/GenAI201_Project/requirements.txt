@@ -1,0 +1,7 @@
+streamlit
+langchain
+transformers
+chromadb
+mysql-connector-python
+python-dotenv
+notebook
